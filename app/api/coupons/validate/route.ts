@@ -1,17 +1,11 @@
-/**
- * Create By Chazi ` Mpx.
- * Contact Me on wa.me/14314403688
- * Follow https://github.com/everlynnameyhst
- */
- 
 import { NextResponse } from "next/server"
 import clientPromise from "@/lib/mongodb"
 
-export async function POST(request: Request) {
+export async function POST(request) {
   try {
     const { code } = await request.json()
     const client = await clientPromise
-    const db = client.db("swezesty-db")
+    const db = client.db("ver6core")
 
     const coupon = await db.collection("coupons").findOne({
       code: code.toUpperCase(),
@@ -20,11 +14,17 @@ export async function POST(request: Request) {
     })
 
     if (!coupon) {
-      return NextResponse.json({ valid: false, message: "Kupon tidak valid atau sudah kadaluarsa" }, { status: 404 })
+      return NextResponse.json(
+        { valid: false, message: "Kupon tidak valid atau sudah kadaluarsa" },
+        { status: 404 }
+      )
     }
 
     return NextResponse.json({ valid: true, discount: coupon.discount })
   } catch (error) {
-    return NextResponse.json({ valid: false, message: "Internal Server Error" }, { status: 500 })
+    return NextResponse.json(
+      { valid: false, message: "Internal Server Error" },
+      { status: 500 }
+    )
   }
 }
