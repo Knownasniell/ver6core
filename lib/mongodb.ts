@@ -7,8 +7,7 @@
 import { MongoClient } from "mongodb"
 
 const MONGO_URI =
-  "mongodb+srv://levrouniverse_db_user:n6UOtilteK7rzv2j@nourv6s.dbpznrd.mongodb.net/ver6core?retryWrites=true&w=majority"
-const options = {}
+  "MONGODB_URI"
 
 let client: MongoClient
 let clientPromise: Promise<MongoClient>
