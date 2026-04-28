@@ -6,7 +6,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { ArrowRight, Github, Instagram, Whatsapp, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
@@ -51,8 +51,8 @@ export function Hero() {
             >
               <div className="circle-clip w-full h-full relative overflow-hidden border-4 border-primary/30 bg-background shadow-2xl shadow-primary/20">
                 <motion.img
-                  src="https://files.catbox.moe/u13f8n.png"
-                  alt="Lexxy Mpx Profile"
+                  src="https://h.uguu.se/yxuOOcJW.jpg"
+                  alt="Nourv6s Profile"
                   className="w-full h-full object-cover"
                   loading="eager"
                 />
@@ -67,16 +67,14 @@ export function Hero() {
             <motion.div variants={itemVariants} className="space-y-2">
               <motion.p className="text-primary font-medium text-lg">Hello, I'm</motion.p>
               <motion.h1 className="text-5xl md:text-7xl font-bold text-balance">
-                <span className="text-gradient">Lexxy Mpx</span>
+                <span className="text-gradient">Nourv6s</span>
               </motion.h1>
             </motion.div>
 
             <motion.p
               variants={itemVariants}
               className="text-xl md:text-2xl text-muted-foreground text-pretty leading-relaxed max-w-2xl mx-auto"
-            >
-              Full-Stack Developer & Creative Technologist crafting exceptional digital experiences with modern web
-              technologies.
+            > suka ngebikin sesuatu, apa yang ada dipikiran gw bikin termasuk bikin imajinasi bareng dia, hhe.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4 justify-center">
@@ -101,10 +99,10 @@ export function Hero() {
             <motion.div variants={itemVariants} className="flex items-center gap-3 justify-center">
               <p className="text-sm text-muted-foreground">Connect with me:</p>
               {[
-                { Icon: Github, href: "https://github.com/everlynnameyhst" },
-                { Icon: Linkedin, href: "#" },
-                { Icon: Twitter, href: "#" },
-                { Icon: Mail, href: "https://wa.me/14314403688" },
+                { Icon: Github, href: "https://github.com/Knownasniell" },
+                { Icon: Instagram, href: "https://instagram.com" },
+                { Icon: Whatsapp, href: "https://wa.me/6282254845521" },
+                { Icon: Mail, href: "levrouniverse@gmail.com" },
               ].map(({ Icon, href }, index) => (
                 <motion.a
                   key={index}
