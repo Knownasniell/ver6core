@@ -27,20 +27,20 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/everlynnameyhst",
+      href: "https://github.com/Knownasniell",
       label: "GitHub",
       color: "hover:bg-[#333]/10 hover:text-[#333] dark:hover:text-white",
     },
     {
       icon: MessageCircle,
-      href: "https://wa.me/14314403688",
+      href: "https://wa.me/6282254845521",
       label: "WhatsApp",
       color: "hover:bg-[#25D366]/10 hover:text-[#25D366]",
     },
     {
-      icon: Linkedin,
-      href: "https://linkedin.com/chazi-mpx",
-      label: "LinkedIn",
+      icon: Instagram,
+      href: "https://instagram.com/nourv6s_",
+      label: "Instagram",
       color: "hover:bg-[#0077b5]/10 hover:text-[#0077b5]",
     },
   ]
@@ -83,14 +83,13 @@ export function Footer() {
             <div className="flex items-center gap-4">
               <CircularLogo size={70} />
               <div>
-                <span className="text-3xl font-bold text-gradient block">Lexxy Mpx</span>
-                <span className="text-sm text-muted-foreground">Creative Technologist</span>
+                <span className="text-3xl font-bold text-gradient block">Nourv6s</span>
+                <span className="text-sm text-muted-foreground">Lover Addict</span>
               </div>
             </div>
 
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Crafting beautiful, functional, and performant digital experiences with modern web technologies. Let's
-              build something amazing together.
+              suka ngebikin sesuatu, apa yang ada dipikiran gw bikin termasuk bikin imajinasi bareng dia, hhe.
             </p>
 
             <div className="space-y-3">
@@ -217,12 +216,12 @@ export function Footer() {
           className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© {new Date().getFullYear()} Lexxy Mpx.</span>
+            <span>© {new Date().getFullYear()} Nourv6s.</span>
             <span className="hidden md:inline">All rights reserved.</span>
           </div>
 
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-muted-foreground">Crafted with</span>
+            <span className="text-muted-foreground">Crafted by Daniel with</span>
             <Heart className="w-4 h-4 text-primary fill-primary animate-pulse" />
             <span className="text-muted-foreground">and passion</span>
           </div>
