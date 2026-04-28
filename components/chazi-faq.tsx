@@ -11,29 +11,29 @@ import { HelpCircle } from "lucide-react"
 
 const faqs = [
   {
-    question: "Apa layanan yang ditawarkan?",
+    question: "dah berapa lama sii nunggu dia??",
     answer:
-      "Saya menyediakan berbagai layanan termasuk server Minecraft, SAMP, bots untuk WhatsApp/Telegram/Discord, dan source code siap pakai dengan harga terjangkau.",
+      "lama banget jir, kalo dijadikan hari, mungkin adalah 11 tahun 4 bulan 28 hari. tapi gapapa sih, namanya juga ak sayang dia, hhe",
   },
   {
-    question: "Bagaimana cara melakukan pembayaran?",
+    question: "kenapa ga nyerah aja milih yang lain?",
     answer:
-      "Pembayaran dapat dilakukan melalui berbagai metode seperti transfer bank, e-wallet, dan cryptocurrency. Detail pembayaran akan diberikan setelah checkout.",
+      "gbakal. ya sebenarnya hampir nyerah, tapi makasih buat temen-temen yang ngedukung ak yaa, jadinya semangat deh nunggu diaa :p",
   },
   {
-    question: "Apakah ada garansi untuk produk?",
+    question: "yakin dia bakalan milih lu?",
     answer:
-      "Ya, semua produk dilengkapi dengan garansi dan dukungan teknis. Jika ada masalah, silakan hubungi saya melalui kontak yang tersedia.",
+      "yakin dong, perihal timingnya doang salah. ntar juga kalo emang jodohnya (aamiin ya allah) pasti milihnya ak, eakk :p ",
   },
   {
-    question: "Berapa lama proses setup setelah pembayaran?",
+    question: "bingung gw mau nanya apa lagi?",
     answer:
-      "Proses setup biasanya memakan waktu 1-24 jam setelah pembayaran dikonfirmasi, tergantung kompleksitas layanan yang dipilih.",
+      "yaudah gausa nanya lagi anjim, gw juga bingung jawab apa awoakwok",
   },
   {
-    question: "Apakah bisa request custom features?",
+    question: "sayang dia ga bang?",
     answer:
-      "Tentu saja! Saya menerima permintaan kustomisasi untuk berbagai layanan. Hubungi saya untuk diskusi lebih lanjut mengenai kebutuhan spesifik Anda.",
+      "yaiyalah gila, sayang banget gw anjir, cok woila pake nanya. sayangnya gw ke dia tuh ibaratkan lautan, luasnya tak terhinggaa waduhh :p",
   },
 ]
 
@@ -73,10 +73,10 @@ export function FAQ() {
             <HelpCircle className="w-8 h-8 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-gradient">Pertanyaan Umum</span>
+            <span className="text-gradient">Pertanyaan random</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Temukan jawaban untuk pertanyaan yang sering diajukan tentang layanan saya.
+            pertanyaan yang mungkin my crush tanyakan atau orang nanya, dah kujawab tuh jir.
           </p>
         </motion.div>
 
