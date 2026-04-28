@@ -6,7 +6,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Github, Instagram, Whatsapp, Mail } from "lucide-react"
+import { ArrowRight, Github, Instagram, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
@@ -100,8 +100,7 @@ export function Hero() {
               <p className="text-sm text-muted-foreground">Connect with me:</p>
               {[
                 { Icon: Github, href: "https://github.com/Knownasniell" },
-                { Icon: Instagram, href: "https://instagram.com" },
-                { Icon: Whatsapp, href: "https://wa.me/6282254845521" },
+                { Icon: Instagram, href: "https://instagram.com/nourv6s_" },
                 { Icon: Mail, href: "levrouniverse@gmail.com" },
               ].map(({ Icon, href }, index) => (
                 <motion.a
