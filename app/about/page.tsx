@@ -79,8 +79,8 @@ export default function AboutPage() {
                   <h1 className="text-5xl md:text-6xl font-bold text-gradient">About Me</h1>
                 </div>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                  I'm Lexxy Mpx, a passionate Full-Stack Developer and Creative Technologist with a love for building
-                  beautiful digital experiences.
+                  Hai, Gua Daniel atau sering dikenal dengan nama onlinennya, nourv6s. 
+                 gitu aja deh, btw aku sayang crush aku jir haha, lop uuu kaa, pliss jadi milikku dong :<
                 </p>
               </motion.div>
             </div>
