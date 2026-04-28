@@ -60,7 +60,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <CircularLogo size={54} />
             <span className="text-2xl font-bold text-gradient group-hover:scale-105 transition-transform duration-200">
-              Lexxy Mpx
+              Nourv6s
             </span>
           </Link>
 
@@ -115,7 +115,7 @@ export function Navbar() {
                 <div className="flex items-center justify-between mb-8 pb-4 border-b border-border/40">
                   <div className="flex items-center gap-3">
                     <CircularLogo size={40} />
-                    <span className="text-xl font-bold">Lexxy Mpx</span>
+                    <span className="text-xl font-bold">Nourv6s</span>
                   </div>
                   <Button variant="ghost" size="icon" onClick={toggleMenu} className="rounded-xl">
                     <X className="w-5 h-5" />
@@ -143,7 +143,7 @@ export function Navbar() {
                 </nav>
 
                 <div className="pt-4 mt-auto border-t border-border/40 text-center">
-                  <p className="text-[10px] text-muted-foreground opacity-50">© 2026 Lexxy Mpx</p>
+                  <p className="text-[10px] text-muted-foreground opacity-50">© 2026 Nourv6s</p>
                 </div>
               </div>
             </motion.div>
