@@ -61,8 +61,8 @@ export default function AboutPage() {
                 >
                   <div className="circle-clip w-full h-full relative overflow-hidden border-4 border-primary/30 bg-background shadow-2xl shadow-primary/20">
                     <motion.img
-                      src="https://files.catbox.moe/u13f8n.png" // ganti url lu ya (＾ｖ＾)
-                      alt="Lexxy Mpx Profile"
+                      src="https://h.uguu.se/yxuOOcJW.jpg" // ganti url lu ya (＾ｖ＾)
+                      alt="Nourv6s Profile"
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
@@ -80,7 +80,7 @@ export default function AboutPage() {
                 </div>
                 <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
                   Hai, Gua Daniel atau sering dikenal dengan nama onlinennya, nourv6s. 
-                 gitu aja deh, btw aku sayang crush aku jir haha, lop uuu kaa, pliss jadi milikku dong :<
+                 gitu aja deh, btw aku sayang crush aku jir haha, lop uuu kaa, pliss jadi milikku dong huhuu
                 </p>
               </motion.div>
             </div>
