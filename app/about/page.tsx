@@ -94,9 +94,9 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-foreground">My Journey</h2>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                With years of experience in web development, I specialize in creating modern, responsive, and performant
-                applications using cutting-edge technologies. My approach combines technical expertise with creative
-                problem-solving to deliver solutions that not only work flawlessly but also delight users.
+                dengan berbekal pengalaman seadanya dari tahun 2022 - sekarang. sebenarnya gw masih pemula tapi adalah kebisaannya
+               keknya menghabiskan beras adalah kebisaan gw yang paling gokil jir, oiya btw untuk orang yang ak sayangg nii
+               makasi yaa udaa mencintaii aku jugaa, aku bakalan nunggu kamu, disinii, ak sayangg kmuuuu selamanyaaaa
               </p>
             </motion.div>
 
