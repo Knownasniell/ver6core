@@ -65,7 +65,7 @@ export function Hero() {
 
           <div className="space-y-8 text-center">
             <motion.div variants={itemVariants} className="space-y-2">
-              <motion.p className="text-primary font-medium text-lg">Hello, I'm</motion.p>
+              <motion.p className="text-primary font-medium text-lg">Heii, it's me</motion.p>
               <motion.h1 className="text-5xl md:text-7xl font-bold text-balance">
                 <span className="text-gradient">Nourv6s</span>
               </motion.h1>
